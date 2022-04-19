@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00806a"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout>
+            <TableRow tools:ignore="MissingConstraints"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/tvEasyInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="9pt"
+                    android:text="Kolay Seviye Skor Geçmişi" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout>
+            <TableRow tools:ignore="MissingConstraints"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="202dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/tvEasy"
+                    android:layout_width="match_parent"
+                    android:textSize="12pt"
+                    android:layout_margin="5pt"
+                    android:layout_height="match_parent"
+                    android:text="Bu Seviyede Daha Önce Hiç Oynamadınız" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout>
+            <TableRow tools:ignore="MissingConstraints"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/tvHardInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="9pt"
+                    android:text="Zor Seviye Skor Geçmişi" />
+            </TableRow>
+        </LinearLayout>
+
+        <LinearLayout>
+            <TableRow tools:ignore="MissingConstraints"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="202dp"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/tvHard"
+                    android:layout_width="match_parent"
+                    android:textSize="11pt"
+                    android:layout_margin="5pt"
+                    android:layout_height="match_parent"
+                    android:text="Bu Seviyede Daha Önce Hiç Oynamadınız" />
+            </TableRow>
+        </LinearLayout>
+
+        <TableRow tools:ignore="MissingConstraints"
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <Button
+                android:id="@+id/button_easy"
+                android:layout_width="128dp"
+                android:layout_height="53dp"
+                android:backgroundTint="#EADF82"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="58dp"
+                android:layout_marginRight="25dp"
+                android:onClick="change_activity"
+                android:text="Kolay"
+                android:textColor="@color/black"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/button_hard"
+                android:layout_width="128dp"
+                android:layout_height="53dp"
+                android:backgroundTint="#EADF82"
+                android:layout_marginTop="05dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="25dp"
+                android:onClick="change_activity_2"
+                android:text="Zor"
+                android:textColor="@color/black"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button_how"
+                    android:layout_width="295dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="58dp"
+                    android:layout_marginRight="58dp"
+                    android:backgroundTint="#EADF82"
+                    android:drawableLeft="@drawable/how_foreground"
+                    android:onClick="change_activity_3"
+                    android:text="Nasıl Oynanır?"
+                    android:textColor="@color/black"
+                    tools:ignore="MissingConstraints" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </TableLayout>
+</LinearLayout>

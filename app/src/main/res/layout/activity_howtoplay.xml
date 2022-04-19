@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00806a"
+    tools:context=".howtoplay">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagecard"
+            android:layout_marginLeft="130.5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/card_background" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/howtoplaytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="clicktext"
+                android:text="Öncelikle oyunumuz bir hafıza oyunudur.
+Zor ve kolay olmak üzere iki farklı oyun seviyeniz mevcut.Kolay seviye için 16 adet resimi birbiri ile eşleştirmeniz gerekiyor.
+Toplamda 8 adet eşleştirmeyi tamamladığınızda ya da süreniz dolduğunda oyun sona erecektir. Süreniz kolay seviye için 1 dakikadır.
+Zor seviye için ise 36 adet resimi birbiri ile eşleştirmeniz gerekiyor. Toplamda 18 adet eşleştirmeyi tamamladığınızda ya da süreniz dolduğunda oyun sona erecektir.
+Zor seviye için süreniz 2 dakikadır. 2 adet kartı açtıktan sonra Döndür butonuna basmazsanız yeni kart açılmaz.
+Oyun sonra erdiğinde anasayfada skorunuzu ve sürenizi görebilirsiniz. Skorunuz her doğru eşleşme için +10 puan ve her yanlış eşleşme için -2 puan olacak şekilde hesaplanmaktadır.
+İyi eğlenceler."
+                android:textSize="22dp"
+                android:textStyle="italic|bold"
+                tools:ignore="OnClick" /> //burayı sil sonra
+
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

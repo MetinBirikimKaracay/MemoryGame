@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="8pt"
+            android:text="0"
+            android:textSize="20pt" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="120"
+            android:textSize="20pt" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="137dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="0/18"
+            android:paddingRight="8pt"
+            android:textSize="20pt" />
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="688dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img1"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="0"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img2"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="1"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img3"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="2"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img4"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="3"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img5"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="4"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img6"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="5"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img7"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="6"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img8"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="7"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img9"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="8"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img10"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="9"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img11"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="10"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img12"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="11"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img13"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="12"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img14"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="13"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img15"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="14"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img16"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="15"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img17"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="16"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img18"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="17"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img19"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="18"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img20"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="19"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img21"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="20"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img22"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="21"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img23"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="22"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img24"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="23"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img25"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="24"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img26"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="25"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img27"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:onClick="onClick"
+                android:layout_marginRight="2pt"
+                android:scaleType="fitCenter"
+                android:tag="26"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img28"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="27"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img29"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="28"
+                app:srcCompat="@drawable/card_background" />
+            <ImageButton
+                android:id="@+id/img30"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="29"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/img31"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="30"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img32"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="31"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img33"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="32"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img34"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="33"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img35"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="34"
+                app:srcCompat="@drawable/card_background" />
+
+            <ImageButton
+                android:id="@+id/img36"
+                android:layout_width="65dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="2pt"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:tag="35"
+                app:srcCompat="@drawable/card_background" />
+        </TableRow>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFlip"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="155dp"
+                android:onClick="flipCards"
+                android:text="Döndür" />
+        </LinearLayout>
+    </TableLayout>
+
+
+</LinearLayout>
